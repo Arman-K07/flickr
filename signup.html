@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/icon.png">
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-image: url(./assets/log-bg.jpg);
+            object-fit: cover;
+            background-repeat: no-repeat;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .inp {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            background-color: white;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+        .inp input {
+            margin: 10px;
+            padding: 12px 13px;
+            outline: none;
+            border-radius: 2px;
+            border: 1px solid gray;
+        }
+        .inp button {
+            background-color: #1396E7;
+            color: white;
+            border: #1396E7;
+            margin: 10px;
+            padding: 10px 13px;
+            border-radius: 2px;
+        }
+        .inp p {
+            font-size: 16px;
+        }
+        .inp a {
+            text-decoration: none;
+            color: #0e6da8;
+            font-size: 16px;
+        }
+        
+        .edge {
+            font-size: 18px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 350px;
+            padding-bottom: 10px;
+        }
+        .edge select {
+            width: 85px;
+            background-color: transparent;
+            border: none;
+            color: white;
+            outline: none;
+        }
+        .edge select option {
+            color: gray;
+        }
+        .edge a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        header {
+            background-color: black;
+            padding: 0.7% 0.7%;
+            padding-left: 10%;
+            position: sticky;
+            top: 0;
+            left: 0;
+            
+            
+        }
+        header a img {
+            width: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./assets/flickr_logo_dots.3c6f3e13.svg" alt=""></a>
+    </header>
+    <center>
+        <div class="inp">
+            <h3>Sign up for Flickr</h3>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="number" placeholder="Age">
+            <input type="email" placeholder="E-mail">
+            <input type="password" placeholder="Password">
+            <button>Sign Up</button>
+            <p>By signing up, you agree with Flickr's <a href="">Terms of Services</a> and <a href="">Privacy Policy</a>.</p>
+            <p id="already">Already a Flickr member? <a href="log.html">Log in here</a>.</p>
+        </div>
+        <div class="edge">
+            <select name="Language" id="lang-box">
+                <option>English</option>
+                <option>繁體中文</option>
+                <option>Deutsch</option>
+                <option>Español</option>
+                <option>Français</option>
+                <option>한글</option>
+                <option>Italiano</option>
+                <option>Português</option>
+                <option>Tiếng Việt</option>
+                <option>Bahasa Indonesia</option>
+            </select>
+                <a href="">Help</a>
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+            </div>
+        </div>
+        
+    </center>
+</body>
+</html>
